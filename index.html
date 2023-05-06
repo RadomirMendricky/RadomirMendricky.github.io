@@ -27,10 +27,20 @@
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
 ></script>
-
+<style>
+  body {
+      margin: 0;
+      padding: 0;
+      background: url('./assets/images/stars-1654074_1920.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+</style>
 </head>
 <body>
-  <div class="bg-imadge " style="background-image: url('./assets/images//stars-1654074_1920.jpg'); background-attachment: fixed; background-position: center; background-size: cover; ">
+ 
   <header>
     <nav class="navbar bg-body-tertiary fixed-top navbar navbar-dark bg-dark">
         <div class="container-fluid">
@@ -57,7 +67,7 @@
                   <a class="nav-link" href="./articles.html">Články</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./photos.html">Fotogalerie</a>
+                    <a class="nav-link disabled" href="#">Fotogalerie</a>
                   </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -115,7 +125,7 @@
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
       <div class="card">
-        <img src="./assets/images/man on the moon.jpg" class="card-img-top" alt="man on the moon"/>
+        <img src="./assets/images/man_on_the_moon.jpg" class="card-img-top" alt="man on the moon"/>
         <div class="card-body">
           <h5 class="card-title">Znovu na měsíci?</h5>
           <p class="card-text placeholder-glow">
@@ -125,13 +135,13 @@
             <span class="placeholder col-6"></span>
             <span class="placeholder col-8"></span>
           </p>
-          <a href="#!" class="btn btn-outline-dark">Čeknout článek</a>
+          <a href="./articles.html#section-1" class="btn btn-outline-dark">Čeknout článek</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
       <div class="card">
-        <img src="./assets/images/big beng.jpg" class="card-img-top" alt="boooom"/>
+        <img src="./assets/images/big_beng.jpg" class="card-img-top" alt="boooom"/>
         <div class="card-body">
           <h5 class="card-title">Gama nebo Beta?</h5>
           <p class="card-text placeholder-glow">
@@ -141,13 +151,13 @@
             <span class="placeholder col-6"></span>
             <span class="placeholder col-8"></span>
           </p>
-          <a href="#!" class="btn btn-outline-dark">Čeknout článek</a>
+          <a href="./articles.html#section-2" class="btn btn-outline-dark">Čeknout článek</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
       <div class="card">
-        <img src="./assets/images/new planet.jpg" class="card-img-top" alt="new planet"/>
+        <img src="./assets/images/new_planet.jpg" class="card-img-top" alt="new planet"/>
         <div class="card-body">
           <h5 class="card-title">Nová planeta?</h5>
           <p class="card-text placeholder-glow">
@@ -157,7 +167,7 @@
             <span class="placeholder col-6"></span>
             <span class="placeholder col-8"></span>
           </p>
-          <a href="#!" class="btn btn-outline-dark">Čeknout článek</a>
+          <a href="./articles.html#section-3" class="btn btn-outline-dark">Čeknout článek</a>
         </div>
       </div>
     </div>
@@ -173,7 +183,7 @@
             <span class="placeholder col-6"></span>
             <span class="placeholder col-8"></span>
           </p>
-          <a href="#!" class="btn btn-outline-dark">Čeknout článek</a>
+          <a href="./articles.html#section-4" class="btn btn-outline-dark">Čeknout článek</a>
         </div>
       </div>
     </div>
@@ -189,7 +199,7 @@
             <span class="placeholder col-6"></span>
             <span class="placeholder col-8"></span>
           </p>
-          <a href="#!" class="btn btn-outline-dark">Čeknout článek</a>
+          <a href="./articles.html#section-5" class="btn btn-outline-dark">Čeknout článek</a>
         </div>
       </div>
     </div>
@@ -205,7 +215,7 @@
             <span class="placeholder col-6"></span>
             <span class="placeholder col-8"></span>
           </p>
-          <a href="#!" class="btn btn-outline-dark">Čeknout článek</a>
+          <a href="./articles.html#section-6" class="btn btn-outline-dark">Čeknout článek</a>
         </div>
       </div>
     </div>
@@ -228,12 +238,12 @@
       ></a>
 
       <!-- Twitter -->
-      <a class="btn btn-outline-light btn-primary disabled  btn-floating m-1" href="https://twitter.com/" role="button" aria-disabled="true"
+      <a class="btn btn-outline-light btn-primary disabled  btn-floating m-1" href="" role="button" aria-disabled="true"
         ><i class="fab fa-twitter"></i
       ></a>
 
       <!-- Google -->
-      <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="https://www.google.cz/" role="button" aria-disabled="true"
+      <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="" role="button" aria-disabled="true"
         ><i class="fab fa-google"></i
       ></a>
 
@@ -243,7 +253,7 @@
       ></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="https://www.linkedin.com/" role="button" aria-disabled="true"
+      <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="" role="button" aria-disabled="true"
         ><i class="fab fa-linkedin-in"></i
       ></a>
 
@@ -264,6 +274,5 @@
   <!-- Copyright -->
 </footer>
 
-</div>
 </body>
 </html>
